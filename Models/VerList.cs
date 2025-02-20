@@ -6,4 +6,5 @@ public class VerList
     public string VerName { get; set; } = string.Empty;
     public bool IsActual {get; set;}
     public DateTime CreatedDate {get; set;} = DateTime.Now;
+    public string LastCommitUrl {get; set;} = string.Empty;
 }
